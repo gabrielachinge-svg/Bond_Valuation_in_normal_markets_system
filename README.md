@@ -4,7 +4,9 @@ In normal market environments, fixed income valuation is governed by stable liqu
 This project implements a modular fixed income engine designed to reflect how institutional quantitative desks structure valuation systems. Rather than relying on flat Yield-to-Maturity approximations, pricing is performed using spot-rate discounting derived from a term structure framework.
 
 The objective is not merely to compute bond prices, but to build infrastructure consistent with professional quantitative finance practice.
+
 Design Philosophy
+
 The engine follows five core principles:
 1. Separation of Concerns  
    - Instruments define cash flows  
